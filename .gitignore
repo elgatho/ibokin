@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+ibok_dump/
+passfile.txt
+haslo.txt
+.ibok_probe_out/

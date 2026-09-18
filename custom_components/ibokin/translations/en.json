@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "IBOKIN — IBOK Niepołomice",
+        "description": "Credentials from ibok.infrastruktura.eu (customer number or e-mail).",
+        "data": {
+          "username": "Customer number",
+          "password": "Password",
+          "meter_id": "Meter ID (from HistoriaOdczytu.aspx?id=... URL)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Wrong customer number or password.",
+      "cannot_connect": "Cannot connect to ibok.infrastruktura.eu.",
+      "unknown": "Unexpected error — check HA logs."
+    },
+    "abort": {
+      "already_configured": "This IBO account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "IBOKIN options",
+        "data": {
+          "meter_id": "Meter ID (from HistoriaOdczytu.aspx?id=... URL)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Unpaid balance"
+      },
+      "last_reading": {
+        "name": "Last water reading"
+      }
+    }
+  }
+}

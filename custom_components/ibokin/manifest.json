@@ -1,0 +1,13 @@
+{
+  "domain": "ibokin",
+  "name": "IBOKIN — nieoficjalna integracja IBOK Niepołomice",
+  "codeowners": ["@elgatho"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/elgatho/infrastruktura-niepolomice",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/elgatho/infrastruktura-niepolomice/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

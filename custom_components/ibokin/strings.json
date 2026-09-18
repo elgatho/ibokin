@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Saldo niezapłaconych"
+      },
+      "last_reading": {
+        "name": "Ostatni odczyt wody"
+      }
+    }
+  }
+}
